@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ViedoActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+
+        <SurfaceView
+            android:id="@+id/surfaceview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            ></SurfaceView>
+
+    </LinearLayout>
+
+
+    <SeekBar
+        android:id="@+id/seekBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/start_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ff668800"
+        android:layout_gravity="center"
+        android:text="开始"
+        android:textSize="30dp"
+        />
+    <Button
+        android:id="@+id/resume_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ff007700"
+        android:layout_gravity="center"
+        android:textSize="30dp"
+        android:text="播放当前"/>
+
+    <Button
+        android:id="@+id/pause_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ff0000"
+        android:layout_gravity="center"
+        android:text="暂停"
+        android:textSize="30dp"
+        />
+
+
+
+    <Button
+        android:id="@+id/dcim_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="选择"
+        android:textSize="30dp"
+        android:layout_gravity="center"
+        />
+
+</LinearLayout>
